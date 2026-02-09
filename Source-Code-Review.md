@@ -25,12 +25,12 @@
 
 ### ✅  Checklist
 
-☐ Identify application type (Web / API / Microservice)
-☐ Identify tech stack (Java / Node / Python / PHP) 
-☐ Locate entry folders (controllers, routes, handlers)
-☐ Identify auth mechanism (session / JWT / OAuth)
-☐ Identify DB type & ORM
-☐ Identify external integrations (payments, emails, webhooks)
+- ☐ Identify application type (Web / API / Microservice)
+- ☐ Identify tech stack (Java / Node / Python / PHP) 
+- ☐ Locate entry folders (controllers, routes, handlers)
+- ☐ Identify auth mechanism (session / JWT / OAuth)
+- ☐ Identify DB type & ORM
+- ☐ Identify external integrations (payments, emails, webhooks)
 
 ---
 
@@ -40,13 +40,13 @@
 
 ### ✅ Checklist
 
-☐ List all HTTP endpoints    
-☐ Identify HTTP methods (GET/POST/PUT/DELETE)
-☐ Identify unauthenticated endpoints
-☐ Identify admin-only endpoints
-☐ Identify file upload / download endpoints
-☐ Identify background jobs / webhooks
-☐ Identify GraphQL resolvers (if any)
+- ☐ List all HTTP endpoints    
+- ☐ Identify HTTP methods (GET/POST/PUT/DELETE)
+- ☐ Identify unauthenticated endpoints
+- ☐ Identify admin-only endpoints
+- ☐ Identify file upload / download endpoints
+- ☐ Identify background jobs / webhooks
+- ☐ Identify GraphQL resolvers (if any)
 
 ---
 
@@ -56,15 +56,15 @@
 
 ### ✅ Checklist
 
-☐ URL parameters    
-☐ Query parameters
-☐ Request body (JSON / form)
-☐ Headers (Authorization, X-* headers)
-☐ Check Cookies flag like `SameSite`, `Secure`, `HttpOnly` 
-☐ JWT claims 
-☐ File uploads
-☐ WebSocket messages
-☐ Mobile app parameters
+- ☐ URL parameters    
+- ☐ Query parameters
+- ☐ Request body (JSON / form)
+- ☐ Headers (Authorization, X-* headers)
+- ☐ Check Cookies flag like `SameSite`, `Secure`, `HttpOnly` 
+- ☐ JWT claims 
+- ☐ File uploads
+- ☐ WebSocket messages
+- ☐ Mobile app parameters
 
 ---
 
@@ -74,13 +74,13 @@
 
 ### ✅ Checklist
 
-☐ Track input from controller to service    
-☐ Track service to DAO / repository
-☐ Track input passed to templates
-☐ Track async jobs / queues
-☐ Track cache usage
-☐ Track cross-service calls
-☐ Track reuse of same variable elsewhere
+- ☐ Track input from controller to service    
+- ☐ Track service to DAO / repository
+- ☐ Track input passed to templates
+- ☐ Track async jobs / queues
+- ☐ Track cache usage
+- ☐ Track cross-service calls
+- ☐ Track reuse of same variable elsewhere
 
 ---
 
@@ -92,19 +92,19 @@
 
 **Injection Sinks**
 
-☐ SQL queries (raw / string concat)    
-☐ NoSQL queries
-☐ LDAP queries
-☐ OS command execution
-☐ Deserialization
+- ☐ SQL queries (raw / string concat)    
+- ☐ NoSQL queries
+- ☐ LDAP queries
+- ☐ OS command execution
+- ☐ Deserialization
 
 **Web Sinks**
 
-☐ HTML rendering (XSS)
-☐ JS execution
-☐ File read/write
-☐ URL fetching (SSRF)
-☐ Redirects
+- ☐ HTML rendering (XSS)
+- ☐ JS execution
+- ☐ File read/write
+- ☐ URL fetching (SSRF)
+- ☐ Redirects
 
 ---
 
@@ -114,13 +114,13 @@
 
 ### ✅ Checklist
 
-☐ Server-side validation exists
-☐ Type validation (int, string, enum)
-☐ Length limits enforced
-☐ Whitelist validation (not blacklist)
-☐ Validation happens BEFORE sink
-☐ Validation applied on ALL code paths
-☐ Validation reusable (not duplicated)
+- ☐ Server-side validation exists
+- ☐ Type validation (int, string, enum)
+- ☐ Length limits enforced
+- ☐ Whitelist validation (not blacklist)
+- ☐ Validation happens BEFORE sink
+- ☐ Validation applied on ALL code paths
+- ☐ Validation reusable (not duplicated)
 
 ---
 
@@ -145,13 +145,13 @@
 
 ### ✅ Checklist
 
-☐ Password hashing (bcrypt / argon2)
-☐ No hardcoded credentials
-☐ Secure password reset flow
-☐ Token randomness & expiry
-☐ MFA logic enforcement
-☐ Session regeneration on login
-☐ Logout invalidates session/token    
+- ☐ Password hashing (bcrypt / argon2)
+- ☐ No hardcoded credentials
+- ☐ Secure password reset flow
+- ☐ Token randomness & expiry
+- ☐ MFA logic enforcement
+- ☐ Session regeneration on login
+- ☐ Logout invalidates session/token    
 
 ---
 
@@ -161,13 +161,13 @@
 
 ### ✅ Checklist
 
-☐ Object ownership verified
-☐ User ID not trusted from request
-☐ Role checks server-side
-☐ Admin routes protected
-☐ Nested object access validated
-☐ No client-side auth decisions
-☐ AuthZ enforced on every access
+- ☐ Object ownership verified
+- ☐ User ID not trusted from request
+- ☐ Role checks server-side
+- ☐ Admin routes protected
+- ☐ Nested object access validated
+- ☐ No client-side auth decisions
+- ☐ AuthZ enforced on every access
 
 ---
 
@@ -177,13 +177,13 @@
 
 ### ✅ Checklist
 
-☐ Price / quantity not client-controlled
-☐ Workflow steps enforced
-☐ State transitions validated 
-☐ Replay attacks prevented
-☐ Coupon / token single-use
-☐ Race conditions handled
-☐ Order/payment consistency checks
+- ☐ Price / quantity not client-controlled
+- ☐ Workflow steps enforced
+- ☐ State transitions validated
+- ☐ Replay attacks prevented
+- ☐ Coupon / token single-use
+- ☐ Race conditions handled
+- ☐ Order/payment consistency checks
  
 ---
 
@@ -193,12 +193,12 @@
 
 ### ✅ Checklist
 
-☐ CSRF tokens present
-☐ Token validated server-side
-☐ Tokens tied to session
-☐ No state-changing GET requests
-☐ SameSite cookie protection
-☐ APIs protected where required
+- ☐ CSRF tokens present
+- ☐ Token validated server-side
+- ☐ Tokens tied to session
+- ☐ No state-changing GET requests
+- ☐ SameSite cookie protection
+- ☐ APIs protected where required
 
 ---
 
@@ -208,12 +208,12 @@
 
 ### ✅ Checklist
 
-☐ File type validation (MIME + extension)
-☐ File size limits
-☐ Upload directory non-executable
-☐ Path traversal protection
-☐ SVG / HTML uploads blocked or sanitized
-☐ Download authorization checks    
+- ☐ File type validation (MIME + extension)
+- ☐ File size limits
+- ☐ Upload directory non-executable
+- ☐ Path traversal protection
+- ☐ SVG / HTML uploads blocked or sanitized
+- ☐ Download authorization checks    
 
 ---
 
@@ -223,12 +223,12 @@
 
 ### ✅ Checklist
 
-☐ No stack traces to users
-☐ No sensitive data in logs
-☐ Debug mode disabled in prod
-☐ Proper error messages
-☐ No silent failures (fail-open)
-☐ Log injection prevented    
+- ☐ No stack traces to users
+- ☐ No sensitive data in logs
+- ☐ Debug mode disabled in prod
+- ☐ Proper error messages
+- ☐ No silent failures (fail-open)
+- ☐ Log injection prevented    
 
 ---
 
@@ -238,12 +238,12 @@
 
 ### ✅ Checklist
 
-☐ No hardcoded secrets
-☐ Secure environment variable usage
-☐ Secure CORS configuration
-☐ Security headers enabled
-☐ Test/debug endpoints removed
-☐ Feature flags secured    
+- ☐ No hardcoded secrets
+- ☐ Secure environment variable usage
+- ☐ Secure CORS configuration
+- ☐ Security headers enabled
+- ☐ Test/debug endpoints removed
+- ☐ Feature flags secured    
 
 ---
 
@@ -253,11 +253,11 @@
 
 ### ✅ Checklist
 
-☐ Outdated dependencies
-☐ Known CVEs
-☐ Insecure deserialization libs
-☐ Dependency confusion risk
-☐ Excessive permissions    
+- ☐ Outdated dependencies
+- ☐ Known CVEs
+- ☐ Insecure deserialization libs
+- ☐ Dependency confusion risk
+- ☐ Excessive permissions    
 
 ---
 
@@ -267,11 +267,11 @@
 
 ### ✅ Checklist
 
-☐ Catch blocks reviewed
-☐ Fallback logic reviewed
-☐ Null handling checked
-☐ Default values safe
-☐ Fail-closed behavior
+- ☐ Catch blocks reviewed
+- ☐ Fallback logic reviewed
+- ☐ Null handling checked
+- ☐ Default values safe
+- ☐ Fail-closed behavior
 
 ---
 
@@ -281,8 +281,8 @@
 
 ### ✅ Checklist
 
-☐ Can this bug expose sensitive data?
-☐ Can exposed data be reused?
-☐ Can bug lead to auth bypass?
-☐ Can bug escalate privilege?    
-☐ Can multiple low bugs chain?
+- ☐ Can this bug expose sensitive data?
+- ☐ Can exposed data be reused?
+- ☐ Can bug lead to auth bypass?
+- ☐ Can bug escalate privilege?    
+- ☐ Can multiple low bugs chain?
