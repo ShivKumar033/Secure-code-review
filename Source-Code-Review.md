@@ -40,7 +40,8 @@
 
 ### ✅ Checklist
 
-- ☐ List all HTTP endpoints    
+- ☐ Look for HTTP routes / controllers
+- ☐ List all HTTP and API endpoints    
 - ☐ Identify HTTP methods (GET/POST/PUT/DELETE)
 - ☐ Identify unauthenticated endpoints
 - ☐ Identify admin-only endpoints
@@ -50,7 +51,7 @@
 
 ---
 
-## 3️⃣ User Input Identification (Sources)
+## 3️⃣ User Input Identification & Validation (Sources)
 
 **Goal:** Mark all attacker-controlled data.
 
@@ -148,7 +149,7 @@
 - ☐ Password hashing (bcrypt / argon2)
 - ☐ No hardcoded credentials
 - ☐ Secure password reset flow
-- ☐ Token randomness & expiry
+- ☐ Token randomness & expiry validated
 - ☐ MFA logic enforcement
 - ☐ Session regeneration on login
 - ☐ Logout invalidates session/token    
@@ -228,7 +229,8 @@
 - ☐ Debug mode disabled in prod
 - ☐ Proper error messages
 - ☐ No silent failures (fail-open)
-- ☐ Log injection prevented    
+- ☐ Log injection prevented
+- ☐ Log's don't leak secrets in error    
 
 ---
 

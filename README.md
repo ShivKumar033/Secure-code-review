@@ -286,3 +286,9 @@
 - ☐ Can bug lead to auth bypass?
 - ☐ Can bug escalate privilege?    
 - ☐ Can multiple low bugs chain?
+
+#### Sources:
+- [[https://github.com/0xRadi/OWASP-Web-Checklist]]
+- [[https://arch.simplicable.com/arch/new/secure-code-review-checklist]]
+- [[https://www.evoketechnologies.com/blog/software-quality/code-review-checklist-perform-effective-code-reviews/]]
+- [[https://dzone.com/articles/java-code-review-checklist]]
