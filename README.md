@@ -7,6 +7,7 @@
 - Using both SAST and manual review saves time and avoids false reports.
 
 [Regex-Notes](/main/Regex-Notes.md)
+
 [Secure-coding-practices-checklist](/main/Secure-coding-practices-checklist.md)
 
 ###  Common SAST Tools (Short List)
